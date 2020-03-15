@@ -30,16 +30,15 @@ function sayHiToGrandma(string){
   
   if (uppercase.toUpperCase() === uppercase){
   
-    
-    
-    return 'YES INDEED!'
-    
+      return 'YES INDEED!'
+  }
   
   if (lowercase.toLowerCase() === lowercase){
     return 'I can\'t hear you!'
- if else  (string === 'I love you, Grandma.'){
+  }
+ if (string === 'I love you, Grandma.'){
     return 'I love you, too.'
   }
   return string
 }
-}}
+
