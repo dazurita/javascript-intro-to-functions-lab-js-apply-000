@@ -28,16 +28,17 @@ function sayHiToGrandma(string){
     return 'I love you, too.'
   }
  
- 
+ var uppercase = 'HELLO!'
   
   if (uppercase.toUpperCase() === uppercase){
-       var uppercase = 'HELLO!'
+       
       return 'YES INDEED!'
   }
   
+   var lowercase = 'hello!'
    
   if (lowercase.toLowerCase() === lowercase){
-     var lowercase = 'hello!'
+    
     return 'I can\'t hear you!'
     
   }
